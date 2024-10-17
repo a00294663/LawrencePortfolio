@@ -11,7 +11,7 @@ const Skills = () => {
   return (
     <SkillsSection>
       <h2>Skills</h2>
-      <p>Here are some of my skills.</p>
+      <p>Thorough reading,HTML,C#,Javascript,Kotlin etc.</p>
     </SkillsSection>
   );
 };

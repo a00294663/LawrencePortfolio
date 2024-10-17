@@ -7,8 +7,18 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-around;
   padding: 1rem;
-  background-color: #333;
+  background-color: #1e90ff; /* Change this to your preferred color */
   color: white;
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      color: #f0f8ff; /* Change to a lighter shade for hover effect */
+    }
+  }
 `;
 
 const Header = () => {
